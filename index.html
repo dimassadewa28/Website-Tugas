@@ -1,0 +1,184 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UMKM</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+      background: url('sora.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #adb5b5;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #4b5563; 
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      font-weight: 800;
+      font-size: 1.875rem; 
+      line-height: 2.25rem;
+      max-width: 64rem;
+      margin: 0 auto;
+    }
+    header p {
+      margin-top: 0.75rem;
+      font-size: 1rem;
+      max-width: 32rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    nav {
+      background-color: #4b5563;
+      border-radius: 0.375rem;
+      margin: 1.5rem 1rem 2.5rem;
+      padding: 0.5rem 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    nav a {
+      background-color: #2261c5; 
+      color: white;
+      padding: 0.25rem 1rem;
+      border-radius: 0.375rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    main {
+      max-width: 90rem;
+      margin: 0 auto 4rem;
+      padding: 0 1rem;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 2rem;
+    }
+    @media (min-width: 640px) {
+      main {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (min-width: 768px) {
+      main {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    @media (min-width: 1024px) {
+      main {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+    article {
+      background-color: #4b5563; 
+      border-radius: 1rem;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    article h2 {
+      color: white;
+      font-weight: 800;
+      font-size: 1.25rem;
+      text-decoration: underline;
+      margin: 0 0 1rem 0;
+      text-align: center;
+      line-height: 1.25;
+    }
+    article a img {
+      border-radius: 0.375rem;
+      width: 100%;
+      max-width: 260px;
+      height: auto;
+      object-fit: cover;
+      display: block;
+    }
+    footer {
+      background-color: #4b5563;
+      color: white;
+      text-align: center;
+      padding: 1rem 1rem;
+      font-size: 0.875rem;
+      font-weight: 300;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>UMKM Palembang</h1>
+    <p>Wong Kito Galo</p>
+  </header>
+  <nav>
+    <a href="Songket.html">Kain Songket</a>
+    <a href="Kemplang.html">Kemplang Panggang</a>
+    <a href="Jumputan.html">Kain Jumputan</a>
+    <a href="Anyaman.html">Anyaman Bambu</a>
+    <a href="Pindang.html">Pindang</a>
+    <a href="Maksuba.html">Kue Maksuba</a>
+    <a href="Model.html">Model</a>
+    <a href="Tekwan.html">Tekwan</a>
+  </nav>
+  <main>
+    <article>
+      <h2>Kain Songket</h2>
+      <a href="Songket.html" target="_blank" rel="noopener noreferrer">
+        <img src="songket3.jpg" alt="" />
+      </a>
+    </article>
+    <article>
+      <h2>Kemplang Panggang</h2>
+      <a href="Kemplang.html" target="_blank" rel="noopener noreferrer">
+        <img src="kemplang1.jpg" alt="" />
+      </a>
+    </article>
+    <article>
+      <h2>Kain Jumputan</h2>
+      <a href="Jumputan.html" target="_blank" rel="noopener noreferrer">
+        <img src="jumputan1.jpg" alt="" />
+      </a>
+    </article>
+    <article>
+      <h2>Anyaman Bambu </h2>
+      <a href="Anyaman.html" target="_blank" rel="noopener noreferrer">
+        <img src="bambu3.jpg" alt="" />
+      </a>
+    </article>
+    <article>
+      <h2>Pindang</h2>
+      <a href="Pindang.html" target="_blank" rel="noopener noreferrer">
+        <img src="pindang1.jpg" alt="" />
+      </a>
+    </article>
+    <article>
+      <h2>Kue Maksuba</h2>
+      <a href="Maksuba.html" target="_blank" rel="noopener noreferrer">
+        <img src="maksuba2.jpg" alt="" />
+      </a>
+    </article>
+    <article>
+      <h2>Model</h2>
+      <a href="Model.html" target="_blank" rel="noopener noreferrer">
+        <img src="model2.jpg" alt="" />
+      </a>
+    </article>
+    <article>
+      <h2>Tekwan</h2>
+      <a href="Tekwan.html" target="_blank" rel="noopener noreferrer">
+        <img src="tekwan1.jpg" alt="" />
+      </a>
+    </article>
+  </main>
+  <footer>
+    <p>© 2025 . All rights reserved.</p>
+  </footer>
+</body>
+</html>
